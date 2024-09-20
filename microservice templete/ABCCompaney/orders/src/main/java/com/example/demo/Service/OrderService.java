@@ -71,7 +71,7 @@ public class OrderService {
                 }
 
             }else{
-                return new ErrorResponce("this item not availabel ");
+                return new ErrorResponce("this item not avaiabless ");
             }
         }
         catch (WebClientResponseException e) {
